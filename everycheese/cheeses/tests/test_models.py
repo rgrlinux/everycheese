@@ -3,8 +3,6 @@ from ..models import Cheese
 
 
 @pytest.mark.django_db
-
-
 def test___str__():
     cheese = Cheese.objects.create(
         name="Stracchino",
